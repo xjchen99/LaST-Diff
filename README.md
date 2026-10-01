@@ -65,4 +65,4 @@ Please cite the [paper](https://papers.miccai.org/miccai-2026-sat/DGM4MICCAI_028
 
 ## Acknowledgments
 
-Built on [STeP](https://github.com/zhangbingliang2019/STeP), Diffusers, and PyTorch. See [ACKNOWLEDGMENTS.md](ACKNOWLEDGMENTS.md).
+Many thanks to [STeP](https://github.com/zhangbingliang2019/STeP)! See [ACKNOWLEDGMENTS.md](ACKNOWLEDGMENTS.md).
