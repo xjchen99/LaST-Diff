@@ -1,4 +1,4 @@
-# LaST-Diff: CAMUS
+# LaST-Diff
 
 Code for **LaST-Diff: Latent Spatiotemporal Diffusion for Temporally Stable Echocardiography Video Segmentation**.
 
