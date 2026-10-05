@@ -61,7 +61,7 @@ Results are saved as CSV files and a JSON summary. Add `--case-list /path/to/tes
 
 ## Citation
 
-Please cite the [paper](https://papers.miccai.org/miccai-2026-sat/DGM4MICCAI_028.html) using [CITATION.bib](CITATION.bib).
+If you find LaST-Diff helpful in your research, please cite the [paper](https://papers.miccai.org/miccai-2026-sat/DGM4MICCAI_028.html) using [CITATION.bib](CITATION.bib).
 
 ## Acknowledgments
 
