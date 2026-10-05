@@ -20,14 +20,14 @@ pip install -r requirements.txt
 
 Download CAMUS and its split files; see the [CAMUS paper](https://doi.org/10.1109/TMI.2019.2900516) (Leclerc et al., 2019).
 
-Place paired half sequences under each patient directory, using filenames such as `patient0001_2CH_half_sequence.nii.gz` and `patient0001_2CH_half_sequence_gt.nii.gz`, for both 2CH and 4CH views.
+Place paired image and ground truth under each patient directory.
 
 ```bash
 python preprocess.py --raw-root /path/to/half_sequences \
   --split-dir /path/to/camus/database_split --output-dir data/camus
 ```
 
-Use an empty output directory. Preparation produces normalized 16-frame sequences at 256 x 256 pixels. Training and validation patients are combined; test patients remain held out. Add `--images-only` when preparing unlabeled inference data.
+Use an empty output directory. Preparation produces normalized 16-frame sequences at 256 x 256 pixels. Add `--images-only` when preparing unlabeled inference data.
 
 ## Training
 
